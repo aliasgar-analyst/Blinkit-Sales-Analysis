@@ -33,6 +33,8 @@ It includes missing values, duplicate records, and inconsistent categorical labe
 - Python
 - Pandas
 - NumPy
+- Matplotlib
+- Seaborn
 - Scikit-learn
 - Jupyter Notebook
 
