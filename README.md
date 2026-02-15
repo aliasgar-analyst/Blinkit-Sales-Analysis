@@ -1,7 +1,7 @@
-# Blinkit Sales Analysis and Predictive Modeling
+# Blinkit Sales Analysis, SQL Insights and Predictive Modeling
 
 ## Objective
-To analyze Blinkit sales data to understand key factors influencing sales performance and to build a predictive model based on the same dataset.
+To analyze Blinkit sales data to understand key factors influencing sales performance, generate SQL-based business insights, and build a predictive model using the same dataset.
 
 ## Dataset
 The dataset contains information related to products, outlets, and sales metrics.  
@@ -14,6 +14,15 @@ It includes missing values, duplicate records, and inconsistent categorical labe
 - Removed duplicate records
 - Standardized inconsistent categorical values
 - Converted columns to appropriate data types
+
+### SQL-Based Analysis
+- Imported the dataset into a SQL environment
+- Wrote SQL queries to analyze:
+  - Sales by outlet type and location
+  - Top performing product categories
+  - Average and total sales across outlets
+  - Distribution of sales by outlet size
+- Used SQL results to validate insights obtained through pandas
 
 ### Exploratory Data Analysis (EDA)
 - Analyzed sales trends across outlets and product categories
@@ -30,13 +39,12 @@ It includes missing values, duplicate records, and inconsistent categorical labe
 - Evaluated model performance using appropriate metrics
 
 ## Tools and Technologies
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Jupyter Notebook
+- Python  
+- Pandas  
+- NumPy  
+- SQL  
+- Scikit-learn  
+- Jupyter Notebook  
 
 ## Key Insights
 - Certain outlet characteristics have a strong influence on sales
@@ -44,5 +52,5 @@ It includes missing values, duplicate records, and inconsistent categorical labe
 - Product type and outlet location play an important role in sales variation
 
 ## Conclusion
-This project demonstrates an end-to-end data analysis workflow, from raw data cleaning to exploratory analysis and predictive modeling.  
-The insights and model can help support data-driven decision-making related to inventory planning and outlet performance optimization.
+This project demonstrates an end-to-end data workflow that combines SQL-based querying, Python data analysis, and machine learning.  
+The insights and predictive model can support data-driven decisions related to inventory planning and outlet performance optimization.
